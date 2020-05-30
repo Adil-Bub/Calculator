@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculator</title>
+</head>
+<link rel="stylesheet" type="text/css" href="./style.css">
+<link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+<body>
+  <div id="container">
+  <div id="displayWrapper">
+    <div id="display"></div>
+  </div>
+  <div id="buttonBackground">
+    <div id="buttonWrapper">
+    <div id="row">
+  <div id="ac" class="cell" onclick = "keyPress(this)">AC</div>
+  <div id="c" class="cell" onclick = "keyPress(this)">C</div>
+  <div id="modulo" class="cell" onclick = "keyPress(this)">%</div>
+  <div id="divide" class="cell" onclick = "keyPress(this)">/</div>
+      </div>
+    <div id="row">
+  <div id="seven" class="cell" onclick = "keyPress(this)">7</div>
+  <div id="eight" class="cell" onclick = "keyPress(this)">8</div>
+  <div id="nine" class="cell" onclick = "keyPress(this)">9</div>
+  <div id="multiply" class="cell" onclick = "keyPress(this)">X</div>
+      </div>
+    <div id="row">
+  <div id="four" class="cell" onclick = "keyPress(this)">4</div>
+  <div id="five" class="cell" onclick = "keyPress(this)">5</div>
+  <div id="six" class="cell" onclick = "keyPress(this)">6</div>
+  <div id="minus" class="cell" onclick = "keyPress(this)">-</div>
+    </div>
+      <div id="row">
+  <div id="one" class="cell" onclick = "keyPress(this)">1</div>
+  <div id="two" class="cell" onclick = "keyPress(this)">2</div>
+  <div id="three" class="cell" onclick = "keyPress(this)">3</div>
+        <div id="add" class="longCell" onclick = "keyPress(this)">+</div>
+      </div>
+      <div id="row">
+  <div id="zero" class="cell" onclick = "keyPress(this)">0</div>
+  <div id="point" class="cell" onclick = "keyPress(this)">.</div>
+  <div id="equals" class="cell" onclick = "keyPress(this)">=</div>
+      </div>
+</div>
+      </div>
+  </div>
+</div>
+  
+  
+</body>
+<script type="text/javascript" src="./script.js"></script>
+</html>
